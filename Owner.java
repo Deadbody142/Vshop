@@ -23,8 +23,8 @@ public class Owner extends Prototype {
             } else if (key == 3) {
                 shprice = pr;
             }
-            System.out.println("Continue?");
+            System.out.println("Continue?(y or Y)");
             ch = sc.next().charAt(0);
-        } while (ch == 'y');
+        } while (ch == 'y'|| ch == 'Y');
     }
 }
